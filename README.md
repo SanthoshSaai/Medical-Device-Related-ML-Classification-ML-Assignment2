@@ -83,7 +83,7 @@ The uploaded test data is used for evaluation and does not retrain the models.
 https://github.com/SanthoshSaai/Medical-Device-Related-ML-Classification-ML-Assignment2
 
 **Streamlit Application:**  
-[Add the deployed Streamlit URL here]
+[https://medical-device-related-ml-classification-ml-assignment2-tnsese.streamlit.app/]
 
 ### Technologies Used
 
