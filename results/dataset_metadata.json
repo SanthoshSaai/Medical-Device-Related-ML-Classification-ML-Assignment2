@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Cardiotocography",
+  "uci_dataset_id": 193,
+  "dataset_url": "https://archive.ics.uci.edu/dataset/193/cardiotocography",
+  "citation": "Campos, D. & Bernardes, J. (2000). Cardiotocography. UCI Machine Learning Repository. https://doi.org/10.24432/C51S4N",
+  "license": "CC BY 4.0",
+  "usable_rows": 2126,
+  "input_feature_count": 21,
+  "input_features": [
+    "LB",
+    "AC",
+    "FM",
+    "UC",
+    "DL",
+    "DS",
+    "DP",
+    "ASTV",
+    "MSTV",
+    "ALTV",
+    "MLTV",
+    "Width",
+    "Min",
+    "Max",
+    "Nmax",
+    "Nzeros",
+    "Mode",
+    "Mean",
+    "Median",
+    "Variance",
+    "Tendency"
+  ],
+  "target_column": "NSP",
+  "target_labels": {
+    "1": "Normal",
+    "2": "Suspect",
+    "3": "Pathological"
+  },
+  "target_distribution": {
+    "1": 1655,
+    "2": 295,
+    "3": 176
+  },
+  "excluded_target_columns": [
+    "CLASS"
+  ],
+  "train_rows": 1700,
+  "test_rows": 426,
+  "test_size_fraction": 0.2,
+  "random_state": 42,
+  "training_class_distribution": {
+    "1": 1323,
+    "2": 236,
+    "3": 141
+  },
+  "test_class_distribution": {
+    "1": 332,
+    "2": 59,
+    "3": 35
+  },
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "K-Nearest Neighbors": "knn.joblib",
+    "Gaussian Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  }
+}

@@ -1,0 +1,9 @@
+# Python 3.11 recommended. Pin scikit-learn so saved joblib pipelines load consistently.
+streamlit==1.41.1
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.2
+joblib==1.4.2
+ucimlrepo==0.0.7
+pyarrow==18.1.0

@@ -1,0 +1,11 @@
+STARTER PACKAGE STATUS — NOT YET TRAINED ON THE REAL DATASET
+
+This archive contains revised source code and documentation for the UCI Cardiotocography project.
+It does not contain trained models, real test_data.csv, or measured evaluation results yet.
+
+After installing requirements.txt with Python 3.11 and ensuring internet access, run:
+  python train.py
+
+The script fetches UCI dataset 193, checks the row/feature requirements, trains five models, and generates test_data.csv, model/*.joblib, results/model_comparison.csv, and results/dataset_metadata.json.
+Only after that successful run should the generated artifacts be pushed to GitHub and the Streamlit app deployed.
+A synthetic-data smoke test was used to verify the training/evaluation pipeline; its results are not real CTG results and are not included.
